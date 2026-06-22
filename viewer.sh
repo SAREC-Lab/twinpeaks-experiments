@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# Twin Peaks Viewer — self-contained (no Docker required, Python 3 only)
+# Twin Peaks Viewer — Mac / Linux / WSL
 # Run:  bash viewer.sh
-# Then: http://localhost:8080
 set -euo pipefail
 
 WORK=$(mktemp -d)
