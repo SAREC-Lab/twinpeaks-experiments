@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Twin Peaks Viewer — Mac / Linux / WSL
-# Run:  bash viewer.sh
+# Run:  bash run_dronboard.sh
 set -euo pipefail
 
 WORK=$(mktemp -d)
@@ -35,4 +35,4 @@ echo "  Press Ctrl+C to stop."
 echo ""
 
 cd "$WORK"
-python3 -m http.server 8080 2>/dev/null
+python3 -m http.server 8080 > /dev/null 2>&1

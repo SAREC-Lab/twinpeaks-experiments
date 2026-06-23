@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Twin Peaks Viewer — Windows / Mac / Linux
-# Run:  python viewer.py
+# Run:  python run_dronboard.py
 import base64, http.server, os, tempfile, threading, webbrowser
 from pathlib import Path
 
